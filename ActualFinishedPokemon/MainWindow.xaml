@@ -1,0 +1,33 @@
+﻿<Window x:Class="ActualFinishedPokemon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ActualFinishedPokemon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/images/pokemon_background.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <Label x:Name="TitlePage" Content="Welcome to Selena's Pokemon Simulator " HorizontalAlignment="Center" Height="37" Margin="0,26,0,0" VerticalAlignment="Top" Width="426" FontFamily="Cambria" FontSize="24" RenderTransformOrigin="0.618,0.968"/>
+        <Image x:Name="SelectionPanel" Margin="414,238,10,-12" Source="/Images/pokemon_textbox.png" Stretch="Fill" Visibility="Hidden"/>
+        <Label x:Name="GameText" Content="" HorizontalAlignment="Left" Height="73" Margin="445,287,0,0" VerticalAlignment="Top" Width="314"/>
+        <Button x:Name="StartBtn" Content="Game Start!" HorizontalAlignment="Center" Height="69" VerticalAlignment="Center" Width="238" Click="StartBtn_Click"/>
+        <Button x:Name="SubmitButton" Content="Next" HorizontalAlignment="Left" Margin="463,365,0,0" VerticalAlignment="Top" Height="34" Width="278" Click="SubmitButton_Click" Visibility="Hidden"/>
+        <local:Animation x:Name="aniPerson" HorizontalAlignment="Left" Margin="142,292,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <local:Animation x:Name="aniUserLeafeon" HorizontalAlignment="Left" Margin="142,292,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <local:Animation x:Name="aniUserFlareon" HorizontalAlignment="Left" Margin="142,292,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <local:Animation x:Name="aniUserVaporeon" HorizontalAlignment="Left" Margin="142,292,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        
+        <StackPanel x:Name="RadioButtons" HorizontalAlignment="Left" Height="48" Margin="647,312,0,0" VerticalAlignment="Top" Width="94" Visibility="Hidden">
+            <RadioButton x:Name="Radio1" Content="Option 1" Checked="Radio1_Checked"/>
+            <RadioButton x:Name="Radio_2" Content="Option 2" Checked="Radio_2_Checked"/>
+            <RadioButton x:Name="Radio_3" Content="Option 3" Checked="Radio_3_Checked"/>
+        </StackPanel>
+        <TextBox x:Name="NameBox" HorizontalAlignment="Left" Margin="602,305,0,0" TextWrapping="Wrap" Text="Type nickname here." VerticalAlignment="Top" Width="157" Height="55" Visibility="Hidden"/>
+        <local:Animation x:Name="anienemyLeafeon" HorizontalAlignment="Left" Margin="552,104,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <local:Animation x:Name="anienemyVaporeon" HorizontalAlignment="Left" Margin="552,104,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <local:Animation x:Name="anienemyFlareon" HorizontalAlignment="Left" Margin="552,104,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+    </Grid>
+</Window>

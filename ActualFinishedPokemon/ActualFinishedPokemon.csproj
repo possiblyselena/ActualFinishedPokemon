@@ -1,0 +1,248 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\flareonatk1-1.png" />
+    <None Remove="images\flareonatk1-2.png" />
+    <None Remove="images\flareonatk1-3.png" />
+    <None Remove="images\flareonatk1-4.png" />
+    <None Remove="images\flareonatk1-5.png" />
+    <None Remove="images\flareonatk1-6.png" />
+    <None Remove="images\flareonatk1-7.png" />
+    <None Remove="images\flareonatk2-1.png" />
+    <None Remove="images\flareonatk2-2.png" />
+    <None Remove="images\flareonatk2-3.png" />
+    <None Remove="images\flareonatk2-4.png" />
+    <None Remove="images\flareonatk2-5.png" />
+    <None Remove="images\flareonatk2-6.png" />
+    <None Remove="images\flareonatk2-7.png" />
+    <None Remove="images\flareonatk2-8.png" />
+    <None Remove="images\flareonatk2-9.png" />
+    <None Remove="images\flareonatk3-1.png" />
+    <None Remove="images\flareonatk3-10.png" />
+    <None Remove="images\flareonatk3-2.png" />
+    <None Remove="images\flareonatk3-3.png" />
+    <None Remove="images\flareonatk3-4.png" />
+    <None Remove="images\flareonatk3-5.png" />
+    <None Remove="images\flareonatk3-6.png" />
+    <None Remove="images\flareonatk3-7.png" />
+    <None Remove="images\flareonatk3-8.png" />
+    <None Remove="images\flareonatk3-9.png" />
+    <None Remove="images\flareonfaint-1.png" />
+    <None Remove="images\flareonfaint-2.png" />
+    <None Remove="images\flareonfaint-3.png" />
+    <None Remove="images\flareonfaint-4.png" />
+    <None Remove="images\flareonfaint-5.png" />
+    <None Remove="images\flareonfaint-6.png" />
+    <None Remove="images\flareonidle-1.png" />
+    <None Remove="images\flareonidle-2.png" />
+    <None Remove="images\IMG_6545-removebg-preview.png" />
+    <None Remove="images\IMG_6546-removebg-preview.png" />
+    <None Remove="images\leafeonatk1-1.png" />
+    <None Remove="images\leafeonatk1-2.png" />
+    <None Remove="images\leafeonatk1-3.png" />
+    <None Remove="images\leafeonatk1-4.png" />
+    <None Remove="images\leafeonatk1-5.png" />
+    <None Remove="images\leafeonatk1-6.png" />
+    <None Remove="images\leafeonatk1-7.png" />
+    <None Remove="images\leafeonatk1-8.png" />
+    <None Remove="images\leafeonatk1-9.png" />
+    <None Remove="images\leafeonatk2-1.png" />
+    <None Remove="images\leafeonatk2-10.png" />
+    <None Remove="images\leafeonatk2-2.png" />
+    <None Remove="images\leafeonatk2-3.png" />
+    <None Remove="images\leafeonatk2-4.png" />
+    <None Remove="images\leafeonatk2-5.png" />
+    <None Remove="images\leafeonatk2-6.png" />
+    <None Remove="images\leafeonatk2-7.png" />
+    <None Remove="images\leafeonatk2-8.png" />
+    <None Remove="images\leafeonatk2-9.png" />
+    <None Remove="images\leafeonatk3-1.png" />
+    <None Remove="images\leafeonatk3-2.png" />
+    <None Remove="images\leafeonatk3-3.png" />
+    <None Remove="images\leafeonatk3-4.png" />
+    <None Remove="images\leafeonatk3-5.png" />
+    <None Remove="images\leafeonatk3-6.png" />
+    <None Remove="images\leafeonatk3-7.png" />
+    <None Remove="images\leafeonatk3-8.png" />
+    <None Remove="images\leafeonfaint-1.png" />
+    <None Remove="images\leafeonfaint-2.png" />
+    <None Remove="images\leafeonfaint-3.png" />
+    <None Remove="images\leafeonfaint-4.png" />
+    <None Remove="images\leafeonfaint-5.png" />
+    <None Remove="images\leafeonfaint-6.png" />
+    <None Remove="images\leafeonfaint-7.png" />
+    <None Remove="images\leafeonfaint-8.png" />
+    <None Remove="images\leafeonfaint-9.png" />
+    <None Remove="images\leafeonidle-1.png" />
+    <None Remove="images\leafeonidle-2.png" />
+    <None Remove="images\personidle-1.png" />
+    <None Remove="images\personidle-2.png" />
+    <None Remove="images\pokemon_background.png" />
+    <None Remove="images\pokemon_textbox.png" />
+    <None Remove="images\vaporeonatk1-1.png" />
+    <None Remove="images\vaporeonatk1-2.png" />
+    <None Remove="images\vaporeonatk1-3.png" />
+    <None Remove="images\vaporeonatk1-4.png" />
+    <None Remove="images\vaporeonatk2-1.png" />
+    <None Remove="images\vaporeonatk2-2.png" />
+    <None Remove="images\vaporeonatk2-3.png" />
+    <None Remove="images\vaporeonatk2-4.png" />
+    <None Remove="images\vaporeonatk2-5.png" />
+    <None Remove="images\vaporeonatk2-6.png" />
+    <None Remove="images\vaporeonatk3-1.png" />
+    <None Remove="images\vaporeonatk3-2.png" />
+    <None Remove="images\vaporeonatk3-3.png" />
+    <None Remove="images\vaporeonatk3-4.png" />
+    <None Remove="images\vaporeonatk3-5.png" />
+    <None Remove="images\vaporeonatk3-6.png" />
+    <None Remove="images\vaporeonatk3-7.png" />
+    <None Remove="images\vaporeonatk3-8.png" />
+    <None Remove="images\vaporeonfaint-1.png" />
+    <None Remove="images\vaporeonfaint-2.png" />
+    <None Remove="images\vaporeonfaint-3.png" />
+    <None Remove="images\vaporeonfaint-4.png" />
+    <None Remove="images\vaporeonfaint-5.png" />
+    <None Remove="images\vaporeonfaint-6.png" />
+    <None Remove="images\vaporeonfaint-7.png" />
+    <None Remove="images\vaporeonfaint-8.png" />
+    <None Remove="images\vaporeonidle-1.png" />
+    <None Remove="images\vaporeonidle-2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\flareonatk1-1.png" />
+    <Resource Include="images\flareonatk1-2.png" />
+    <Resource Include="images\flareonatk1-3.png" />
+    <Resource Include="images\flareonatk1-4.png" />
+    <Resource Include="images\flareonatk1-5.png" />
+    <Resource Include="images\flareonatk1-6.png" />
+    <Resource Include="images\flareonatk1-7.png" />
+    <Resource Include="images\flareonatk2-1.png" />
+    <Resource Include="images\flareonatk2-2.png" />
+    <Resource Include="images\flareonatk2-3.png" />
+    <Resource Include="images\flareonatk2-4.png" />
+    <Resource Include="images\flareonatk2-5.png" />
+    <Resource Include="images\flareonatk2-6.png" />
+    <Resource Include="images\flareonatk2-7.png" />
+    <Resource Include="images\flareonatk2-8.png" />
+    <Resource Include="images\flareonatk2-9.png" />
+    <Resource Include="images\flareonatk3-1.png" />
+    <Resource Include="images\flareonatk3-10.png" />
+    <Resource Include="images\flareonatk3-2.png" />
+    <Resource Include="images\flareonatk3-3.png" />
+    <Resource Include="images\flareonatk3-4.png" />
+    <Resource Include="images\flareonatk3-5.png" />
+    <Resource Include="images\flareonatk3-6.png" />
+    <Resource Include="images\flareonatk3-7.png" />
+    <Resource Include="images\flareonatk3-8.png" />
+    <Resource Include="images\flareonatk3-9.png" />
+    <Resource Include="images\flareonfaint-1.png" />
+    <Resource Include="images\flareonfaint-2.png" />
+    <Resource Include="images\flareonfaint-3.png" />
+    <Resource Include="images\flareonfaint-4.png" />
+    <Resource Include="images\flareonfaint-5.png" />
+    <Resource Include="images\flareonfaint-6.png" />
+    <Resource Include="images\flareonidle-1.png" />
+    <Resource Include="images\flareonidle-2.png" />
+    <Resource Include="images\leafeonfaint-1.png" />
+    <Resource Include="images\leafeonfaint-2.png" />
+    <Resource Include="images\leafeonfaint-3.png" />
+    <Resource Include="images\leafeonfaint-4.png" />
+    <Resource Include="images\leafeonfaint-5.png" />
+    <Resource Include="images\leafeonfaint-6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\leafeonatk1-4.png" />
+    <Resource Include="images\leafeonatk1-6.png" />
+    <Resource Include="images\leafeonatk1-7.png" />
+    <Resource Include="images\leafeonatk1-8.png" />
+    <Resource Include="images\leafeonatk1-9.png" />
+    <Resource Include="images\leafeonatk2-9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\leafeonatk1-1.png" />
+    <Resource Include="images\leafeonatk1-2.png" />
+    <Resource Include="images\leafeonatk1-3.png" />
+    <Resource Include="images\leafeonatk1-5.png" />
+    <Resource Include="images\leafeonatk2-1.png" />
+    <Resource Include="images\leafeonatk2-10.png" />
+    <Resource Include="images\leafeonatk2-2.png" />
+    <Resource Include="images\leafeonatk2-3.png" />
+    <Resource Include="images\leafeonatk2-4.png" />
+    <Resource Include="images\leafeonatk2-5.png" />
+    <Resource Include="images\leafeonatk2-6.png" />
+    <Resource Include="images\leafeonatk2-7.png" />
+    <Resource Include="images\leafeonatk2-8.png" />
+    <Resource Include="images\leafeonatk3-6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\leafeonatk3-1.png" />
+    <Resource Include="images\leafeonatk3-2.png" />
+    <Resource Include="images\leafeonatk3-3.png" />
+    <Resource Include="images\leafeonatk3-4.png" />
+    <Resource Include="images\leafeonatk3-5.png" />
+    <Resource Include="images\leafeonatk3-7.png" />
+    <Resource Include="images\leafeonatk3-8.png" />
+    <Resource Include="images\leafeonfaint-7.png" />
+    <Resource Include="images\leafeonfaint-8.png" />
+    <Resource Include="images\leafeonfaint-9.png" />
+    <Resource Include="images\leafeonidle-1.png" />
+    <Resource Include="images\leafeonidle-2.png" />
+    <Resource Include="images\vaporeonfaint-2.png" />
+    <Resource Include="images\vaporeonfaint-3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\vaporeonatk3-1.png" />
+    <Resource Include="images\vaporeonatk3-2.png" />
+    <Resource Include="images\vaporeonatk3-3.png" />
+    <Resource Include="images\vaporeonatk3-4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\vaporeonatk3-5.png" />
+    <Resource Include="images\vaporeonatk3-6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\vaporeonatk1-1.png" />
+    <Resource Include="images\vaporeonatk1-2.png" />
+    <Resource Include="images\vaporeonatk1-3.png" />
+    <Resource Include="images\vaporeonatk1-4.png" />
+    <Resource Include="images\vaporeonatk2-5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\personidle-1.png" />
+    <Resource Include="images\personidle-2.png" />
+    <Resource Include="images\pokemon_background.png" />
+    <Resource Include="images\pokemon_textbox.png" />
+    <Resource Include="images\vaporeonatk2-1.png" />
+    <Resource Include="images\vaporeonatk2-2.png" />
+    <Resource Include="images\vaporeonatk2-3.png" />
+    <Resource Include="images\vaporeonatk2-4.png" />
+    <Resource Include="images\vaporeonatk2-6.png" />
+    <Resource Include="images\vaporeonatk3-7.png" />
+    <Resource Include="images\vaporeonatk3-8.png" />
+    <Resource Include="images\vaporeonfaint-1.png" />
+    <Resource Include="images\vaporeonfaint-4.png" />
+    <Resource Include="images\vaporeonfaint-5.png" />
+    <Resource Include="images\vaporeonfaint-6.png" />
+    <Resource Include="images\vaporeonfaint-7.png" />
+    <Resource Include="images\vaporeonfaint-8.png" />
+    <Resource Include="images\vaporeonidle-1.png" />
+    <Resource Include="images\vaporeonidle-2.png" />
+  </ItemGroup>
+
+</Project>
